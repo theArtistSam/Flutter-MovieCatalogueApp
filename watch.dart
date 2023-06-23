@@ -18,31 +18,9 @@ class Watch extends StatefulWidget {
 }
 
 class _WatchState extends State<Watch> {
-  String apiKey = '40ed3d8787e7fc3de73f7ebaf3602080';
-
-  // Future<List<MovieData>> fetchMovies() async {
-  //   final url = Uri.https('api.themoviedb.org', '/3/movie/popular', {'api_key': apiKey});
-  //   final response = await http.get(url);
-
-  //   if (response.statusCode == 200) {
-  //     final decodedData = json.decode(response.body);
-      
-  //     final List<MovieData> movies = [];
-
-  //     for (var movieData in decodedData['results']) {
-  //       final title = movieData['title'];
-  //       //print(title);
-  //       final imageUrl = 'https://image.tmdb.org/t/p/w500${movieData['poster_path']}';
-  //       final rating = movieData['vote_average'].toDouble();
-
-  //       movies.add(MovieData(title: title, imageUrl: imageUrl, rating: rating));
-  //     }
-
-  //     return movies;
-  //   } else {
-  //     throw Exception('Failed to load movies');
-  //   }
-  // }
+  // Add your API Key here
+  String apiKey = 'API_KEY';
+  
     Future<List<MovieData>> fetchMovies() async {
     final url = Uri.https('api.themoviedb.org', '/3/movie/popular', {'api_key': apiKey});
     final response = await http.get(url);
