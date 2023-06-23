@@ -25,7 +25,8 @@ class _SearchState extends State<Search> {
   late int _totalResults = 0;
   final TextEditingController _textEditingController = TextEditingController();
   
-  String apiKey = '40ed3d8787e7fc3de73f7ebaf3602080';
+  // Your API Key here 
+  String apiKey = 'API_KEY';
   
 
   Future<List<MovieData>> searchMovies(String movieTitle) async {
