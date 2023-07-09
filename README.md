@@ -11,3 +11,6 @@ On the Watch Page, you'll find:
 - Movie Description: Dive into the storyline and intricacies of each film, enhancing your viewing pleasure.
 
 Our application promises to provide an enjoyable and immersive experience for movie enthusiasts like yourself. Stay tuned for updates and enhancements as we continue to evolve our movie catalog. Lights, camera, action!
+
+Figma: 
+https://www.figma.com/file/r8bARwY6sruQWqrMJGKsZF/Cowlar-%3A-App-Task?node-id=21%3A234&t=1kSfvny63gXDyStA-3
