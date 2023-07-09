@@ -1,4 +1,4 @@
-Introducing our new and exciting Flutter-based movie catalog application!
+Introducing our new and exciting Flutter-based movie catalog application that uses The Movie Data Base TMDB!
 
 Features:
 1. Movie Page: The home screen showcasing the latest and greatest movie titles.
